@@ -19,7 +19,10 @@ a2 = input(int("angka 2:"))
 
 print(f"hasil jumlah : {sum(a1,a2}")
 
-print("program menampilkan input user")
-str = input("masukan input:")
-print(str)
-print("heheh malas")
+
+print("program menampilkan segitiga bintang")
+for i in range(1,11):
+  for j in range(1,i):
+    print("*" * j,end="")
+  print("")
+
