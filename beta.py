@@ -18,3 +18,7 @@ a1 = input(int("angka 1:"))
 a2 = input(int("angka 2:"))
 
 print(f"hasil jumlah : {sum(a1,a2}")
+
+print("program menampilkan input user")
+str = input("masukan input:")
+print(str)
